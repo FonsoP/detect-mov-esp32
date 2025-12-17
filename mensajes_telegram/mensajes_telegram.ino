@@ -81,9 +81,10 @@ void loop() {
     bot.sendMessage(chatId2, "🚨 ALERTA: Intruso detectado", "");
 
     // Esperar un poco para no saturar
+    delay(1500); 
 
   } else {
     // Serial.println("Zona despejada...");
   }
-  delay(500);
+  delay(1500);
 }
